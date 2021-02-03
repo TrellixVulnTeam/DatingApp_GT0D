@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\jacek\\Projekty\\Kursy\\DatingApp\\dating-app\\API\\API.csproj": {}
+    "C:\\Users\\jacek\\OneDrive\\Dokumenty\\GitHub\\DatingApp\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Users\\jacek\\Projekty\\Kursy\\DatingApp\\dating-app\\API\\API.csproj": {
+    "C:\\Users\\jacek\\OneDrive\\Dokumenty\\GitHub\\DatingApp\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\jacek\\Projekty\\Kursy\\DatingApp\\dating-app\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\jacek\\OneDrive\\Dokumenty\\GitHub\\DatingApp\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Users\\jacek\\Projekty\\Kursy\\DatingApp\\dating-app\\API\\API.csproj",
+        "projectPath": "C:\\Users\\jacek\\OneDrive\\Dokumenty\\GitHub\\DatingApp\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\jacek\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\jacek\\Projekty\\Kursy\\DatingApp\\dating-app\\API\\obj\\",
+        "outputPath": "C:\\Users\\jacek\\OneDrive\\Dokumenty\\GitHub\\DatingApp\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
